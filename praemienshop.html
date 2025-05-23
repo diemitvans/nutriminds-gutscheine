@@ -28,7 +28,7 @@
             border-radius: 12px;
             padding: 20px;
             width: 250px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
         .card h2 {
             font-size: 20px;
@@ -54,23 +54,26 @@
     </style>
 </head>
 <body>
-    <h1>🎁 NutriMinds Prämienshop</h1>
-    <p>Herzlichen Glückwunsch zum Erreichen deines Ziels! Wähle jetzt deine Belohnung:</p>
+<h1>🎁 NutriMinds Prämienshop</h1>
+<p>Herzlichen Glückwunsch zum Erreichen deines Ziels! Wähle jetzt deine Belohnung:</p>
 
-    <div class="grid">
-        <div class="card">
-            <h2>🎫 Gutschein-Code „FIT10“</h2>
-            <button onclick="document.getElementById('reward1').innerText='Dein Code: FIT10'">Einlösen</button>
-            <div class="reward" id="reward1"></div>
-        </div>
-        <div class="card">
-            <h2>🍏 Exklusiver Mealplan (PDF)</h2>
-            <a href="/resources/dateien/mealplan.pdf" download><button>Herunterladen</button></a>
-        </div>
-        <div class="card">
-            <h2>💡 Motivationsvideo</h2>
-            <a href="https://www.youtube.com/watch?v=ZXsQAXx_ao0" target="_blank"><button>Video ansehen</button></a>
-        </div>
+<div class="grid">
+    <div class="card">
+        <h2>🎫 Gutschein-Code „ESN“</h2>
+        <button onclick="window.open('https://www.esn.com/', '_blank')">Einlösen</button>
     </div>
+    <div class="card">
+        <h2>🍏 Exklusiver Mealplan (PDF)</h2>
+        <a href="resources/dateien/mealplan.pdf" download>
+            <button>Herunterladen</button>
+        </a>
+    </div>
+    <div class="card">
+        <h2>💡 Motivationsvideo</h2>
+        <a href="https://www.youtube.com/watch?v=ZXsQAXx_ao0" target="_blank">
+            <button>Video ansehen</button>
+        </a>
+    </div>
+</div>
 </body>
 </html>
